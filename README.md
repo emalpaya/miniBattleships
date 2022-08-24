@@ -15,13 +15,13 @@ This programming project contains six (6) total source code files:
 
 These instructions assume the users are running the code on a Linux environment and that Python3 is installed. The code in the screenshots below were run in Ubuntu on Windows 10 in administrator mode.
 ### To run:
-1. Clone this repo and ensure you have Python3 installed, and are running it in a Linux environment.
-2.	In an instance of a Linux command line, have player 1 navigate to the folder where the source files are located, and run the server program as follows to initiate a connection:
+1. Have both players clone this repo and ensure you have Python3 installed, and are running it in a Linux environment.
+2.	In an instance of a Linux command line, have player 1 navigate to the cloned repo where the source files are located, and run the server program as follows to initiate a connection:
     * Enter ‘sudo python3 server.py‘. 
     * Enter your password if prompted, then hit enter to run the program.
 3.	Note the randomly generated port number that the server will be listening on once run. It will be output to the console as such:
     * ‘Server listening on: localhost on port: **27339**’
-4.	In a new instance of a Linux command line, have player 2 navigate to the folder where the source files are located, and run the client program as follows, supplying the earlier-noted port number as a command line argument:
+4.	In a new instance of a Linux command line, have player 2 navigate to the cloned repo where the source files are located, and run the client program as follows, supplying the earlier-noted port number as a command line argument:
     * Enter ‘sudo python3 client.py **27339**‘. 
     * Enter your password if prompted, then hit enter to run the program.
 5.	The port number used when running the client program **must** match the port number output to the console after initiating the server program.

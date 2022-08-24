@@ -27,7 +27,8 @@ These instructions assume the users are running the code on a Linux environment 
 5.	The port number used when running the client program **must** match the port number output to the console after initiating the server program.
 6.	Follow the rules and prompts output to the console during the program to play the game to completion, or to quit when prompted.
 
-# Screenshots of running code
+# Screenshots of running code*
+***Note on screenshots:** Screenshots may show *client_ec.py* and *server_ec.py* being run instead of *client.py* and *server.py*, respectively. Please disregard this as these were earlier iterations of the program. Please continue to run *client.py* and *server.py* as indiciated in the *How to run* instructions above.
 ##### Screenshot 1. How to run Server program - server program after running and no connections made yet
 ![Screenshot 1](./screenshots/001_how_run_server.PNG)
 ##### Screenshot 2. How to run client program - client program (right) after connecting to server program (left). Server program auto-updates once connection is made.

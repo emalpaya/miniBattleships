@@ -1,7 +1,7 @@
 # Description:
-This program utilizes a client-server socket connection to allow 2 players to play an ascii game of Mini Battleships. 
+This program utilizes a client-server socket connection to allow 2 players to play an ascii game of Mini* Battleships. 
 
-The game is considered "mini" battleships in the sense that the board size, ship count, and ship sizes have been scaled down from the typical Battleship game. If this project were to be expanded upon further, I would update it to utilize the full standard board size, ship count, and ship sizes/shapes of a typical Battleship game.
+**The game is considered "mini" in the sense that the board size, ship count, and ship sizes have been scaled down from the typical Battleship game (in my game, the board is only 5x5 squares, utilizes only 3 ships per player, and each ship only takes up one 1x1 space). If this project were to be expanded upon further, I would update it to utilize the full standard board size, ship count, and ship sizes/shapes of a typical Battleship game.*
 # Files:
 This programming project contains six (6) total source code files: 
 * board.py
@@ -46,12 +46,10 @@ These instructions assume the users are running the code on a Linux environment 
 ![Screenshot 8](./screenshots/008_client_arg_val.PNG)
 
 # Comments/observations
-The game I chose to utilize a client-server socket connection is a multiplayer (2-player) ascii game of Mini Battleships. The game is considered "mini" battleships in the sense that the board size, ship count, and ship sizes have been scaled down from the typical Battleship game (in my game, the board is only 5x5 squares, utilizes only 3 ships per player, and each ship only takes up one 1x1 space). 
+The game I chose to utilize a client-server socket connection is a multiplayer (2-player) ascii game of Mini Battleships.
 
-If this project were to be expanded upon further, I would update it to utilize the full standard board size, ship count, and ship sizes/shapes of a typical Battleship game.
+The game cycles through different 'game phases' to follow the socket connection flow established by a prompt for a server and client program. It cycles through the 'Setup' phase once, then the remaining game phases until someone wins.
 
-The game cycles through different 'game phases' to follow the socket connection flow established by the homework prompt for server and client, respectively. It cycles through the 'Setup' phase once, then the remaining game phases until someone wins.
-
-I needed to add the question asking each user if they would like to continue the game after each makes a guess to maintain the wait-then-receive rhythm between server and client. 
+I needed to add the question asking each user if they would like to continue the game after each makes a guess to maintain the wait-then-receive rhythm between server and client but may adjust in the future if I have some time.
 
 

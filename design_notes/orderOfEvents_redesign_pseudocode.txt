@@ -1,0 +1,69 @@
+# Copyright (C) Eva Malpaya
+# #################################################################################################################### 
+# Eva Malpaya
+# CS 372, Oregon State University
+# Programming Project 4
+# August 7, 2022
+# #################################################################################################################### 
+# Pseudocode of Order of Events
+# Established a set of 'game phases' to follow socket flow per client and server
+# Ensures proper wait-then-receive rhythm between client and server
+
+# #################################################################################################################### 
+#
+# SERVER:
+#
+# #################################################################################################################### 
+Connection = acceptance of game
+
+isSetup
+waiting for client board setup
+if not quit
+setup my board
+send done
+
+isClientGuess
+waiting for client guess
+if not quit
+process guess
+send back hit or miss
+
+isServerGuess
+waiting for client keep playing or not
+if not quit
+get guess
+send guess
+
+isResults
+waiting for client response - hit or miss
+if not quit
+send back keep playing or not
+
+
+# #################################################################################################################### 
+#
+# CLIENT:
+#
+# #################################################################################################################### 
+Connection = acceptance of game
+
+isSetup
+setup my board
+send done
+waiting for server board setup
+if not quit
+
+isClientGuess
+get guess
+send guess
+waiting for server response - hit or miss
+
+isServerGuess
+get continue play or not
+send continue play or not
+wait for server guess
+
+isResults
+process guess
+send back hit or miss
+wait for whether server continue play or not

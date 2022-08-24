@@ -1,0 +1,127 @@
+# Copyright (C) Eva Malpaya
+# #################################################################################################################### 
+# Eva Malpaya
+# CS 372, Oregon State University
+# Programming Project 4
+# August 7, 2022
+# #################################################################################################################### 
+# Early draft/ideation of board design and console output before simiplifying
+# May differ slightly from what is finalized
+
+Server console:
+
+Initiating mini battleships game...
+Server awaiting new challengers on: localhost on port: 57447
+A new challenger has appeared! Connected by ('127.0.0.1', 59186)
+Waiting for acceptance of challenge...
+Accepted!
+
+# board setup
+# display boards
+# begin game
+>
+--Client console:
+
+Connected to: localhost on port: 57447
+A wild new challenge has appeared! 
+localhost on port 57447 has challenged you to a game of Mini Battleships.
+Do you wish to accept?
+Type /a to accept or
+Type /q to quit
+>/a
+You have accepted their challenge!
+
+# board setup
+# display boards
+# begin game
+>
+
+ -------- ROUND 11 ---------
+You:
+Ships remaining: 2
+columns->  1   2   3   4   5
+         ---------------------
+row: 1   | O | - |   |   |   |
+         ---------------------
+row: 2   |   |   |   | X |   |
+         ---------------------
+row: 3   |   | - |   |   |   |
+         ---------------------
+row: 4   |   | O |   |   | - |
+         ---------------------
+row: 5   |   |   |   |   | - |
+         ---------------------
+Key:
+O Unsunken ships
+X Sunken ships
+- Wrong guesses
+
+Your opponent:
+Ships remaining: 1
+columns->  1   2   3   4   5
+         ---------------------
+row: 1   |   | - |   |   | - |
+         ---------------------
+row: 2   |   |   |   | X |   |
+         ---------------------
+row: 3   | - | - |   | X |   |
+         ---------------------
+row: 4   |   |   |   |   | - |
+         ---------------------
+row: 5   |   |   |   |   | - |
+         ---------------------
+
+Key:
+O Unsunken ships
+X Sunken ships
+- Wrong guesses
+
+Type /q to quit
+What column would you like to guess?
+>4
+What row would you like to guess?
+>2
+It's a miss!
+Waiting for your opponent's turn...
+Your opponent guessed: col 1 row 1
+It's a hit!
+
+ -------- ROUND 13 ---------
+You:
+Ships remaining: 1
+columns->  1   2   3   4   5
+         ---------------------
+row: 1   | X | - |   |   |   |
+         ---------------------
+row: 2   |   |   |   | X |   |
+         ---------------------
+row: 3   |   | - |   |   |   |
+         ---------------------
+row: 4   |   | O |   |   | - |
+         ---------------------
+row: 5   |   |   |   |   | - |
+         ---------------------
+
+Your opponent:
+Ships remaining: 1
+columns->  1   2   3   4   5
+         ---------------------
+row: 1   |   | - |   |   | - |
+         ---------------------
+row: 2   |   |   |   | X |   |
+         ---------------------
+row: 3   | - | - |   | X |   |
+         ---------------------
+row: 4   |   | - |   |   | - |
+         ---------------------
+row: 5   |   |   |   |   | - |
+         ---------------------
+
+Key:
+O Unsunken ships
+X Sunken ships
+- Wrong guesses
+
+Type /q to quit
+What column would you like to guess?
+>

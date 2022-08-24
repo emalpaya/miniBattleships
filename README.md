@@ -29,28 +29,21 @@ These instructions assume the users are running the code on a Linux environment 
 
 # Screenshots of running code
 ##### How to run server
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/001_how_run_server.PNG?raw=true)
-Screenshot 1. Server program after running and no connections made yet.
+![Screenshot 1. Server program after running and no connections made yet.](../screenshots/001_how_run_server.PNG)
 ##### How to run client
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/002_how_run_client.PNG?raw=true)
-Screenshot 2. Client program (right) after connecting to Server program (left). Server program auto-updates once connection is made.
+![Screenshot 2. Client program (right) after connecting to Server program (left). Server program auto-updates once connection is made.](../screenshots/002_how_run_client.PNG)
 ##### Running code - Gameplay - Post-board setup (Similar output whether Server or Client)
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/003_gameplay_post_board_setup.PNG?raw=true)
-Screenshot 3. Server program (left) and Client program (right) after board setup phase.
+![Screenshot 3. Server program (left) and Client program (right) after board setup phase.](../screenshots/003_gameplay_post_board_setup.PNG)
 ##### Running code - Gameplay - Guessing Phase (Similar output whether Server or Client)
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/004_gameplay_guessing_phase.PNG?raw=true)
-Screenshot 4. Server program (left) and Client program (right) during back-and-forth guessing phase.
+![Screenshot 4. Server program (left) and Client program (right) during back-and-forth guessing phase.](../screenshots/004_gameplay_guessing_phase.PNG)
 ##### Running code - Gameplay - Game Over (Similar output whether Server or Client)
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/005_gameplay_game_over.PNG?raw=true)
-Screenshot 5. Server program (left) and Client program (right) after game is over and one has won.
-##### Numeric input validation ![alt text](https://github.com/emalpaya/miniBattleships/screenshots/006_numeric_input_val.PNG?raw=true)
-Screenshot 6. Numeric input validation
+![Screenshot 5. Server program (left) and Client program (right) after game is over and one has won.](../screenshots/005_gameplay_game_over.PNG)
+##### Numeric input validation 
+![Screenshot 6. Numeric input validation](../screenshots/006_numeric_input_val.PNG)
 ##### Case-insensitive alpha input validation
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/007_alpha_input_val.PNG?raw=true)
-Screenshot 7. Case-insensitive alpha input validation.
+![Screenshot 7. Case-insensitive alpha input validation.](../screenshots/007_alpha_input_val.PNG)
 ##### Exception handling for missing command line argument in Client program
-![alt text](https://github.com/emalpaya/miniBattleships/screenshots/008_client_arg_val.PNG?raw=true)
-Screenshot 8. Exception handling for missing command line argument, Client program.
+![Screenshot 8. Exception handling for missing command line argument, Client program.](../screenshots/008_client_arg_val.PNG)
 
 # Comments/observations
 The game I chose to utilize a client-server socket connection is a multiplayer (2-player) ascii game of Mini Battleships. The game is considered "mini" battleships in the sense that the board size, ship count, and ship sizes have been scaled down from the typical Battleship game (in my game, the board is only 5x5 squares, utilizes only 3 ships per player, and each ship only takes up one 1x1 space). 
